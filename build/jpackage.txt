@@ -1,0 +1,20 @@
+--name Vanaddr
+--description "Vanity address generator for Stellar"
+--vendor vanaddr.com
+--icon Vanaddr.ico
+
+--java-options -XX:+UseParallelGC
+--java-options -XX:NewSize=32g
+
+-p ../lib/EdDSA/eddsa-0.3.0.jar
+-p ../lib/Guava/guava-30.1-jre.jar
+-m com.vanaddr/com.vanaddr.App
+
+--win-dir-chooser
+--win-menu
+--win-shortcut
+--win-upgrade-uuid 05a48a13-9169-4c0f-8fb2-ed537f6545dd
+
+-p R:\Vanaddr.jar
+--dest R:\
+--temp R:\jpackage

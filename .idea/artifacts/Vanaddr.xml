@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Vanaddr">
+    <output-path>R:/</output-path>
+    <root id="archive" name="Vanaddr.jar">
+      <element id="module-output" name="Vanaddr" />
+    </root>
+  </artifact>
+</component>
